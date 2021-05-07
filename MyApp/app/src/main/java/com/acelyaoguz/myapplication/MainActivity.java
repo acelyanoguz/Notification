@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         PendingIntent sender = PendingIntent.getBroadcast(this, 0, notificationIntent, PendingIntent.FLAG_UPDATE_CURRENT);
 
         Calendar cal = Calendar.getInstance();
-        cal.add(Calendar.SECOND, 2);
+        cal.add(Calendar.SECOND, 5);
 
         if (alarmManager != null) {
             // 1000 milisaniye * 60saniye * 5        5 dakika
