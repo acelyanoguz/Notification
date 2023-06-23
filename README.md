@@ -1,4 +1,4 @@
-# My App :  Notification Gönderme
+#  Notification Gönderme
 
 Zamana bağlı notification gönderme uygulamasıdır.
 
